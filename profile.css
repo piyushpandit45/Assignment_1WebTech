@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #141414;
+    color: #ffffff;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  header {
+    background-color: #000000;
+    text-align: center;
+    padding: 60px 0;
+    border-bottom: 3px solid #e50914;
+  }
+  
+  header h1 {
+    font-size: 3rem;
+    color: #e50914;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: #ffffff;
+  }
+  
+  section {
+    padding: 50px 0;
+    border-bottom: 1px solid #333;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #e50914;
+  }
+  
+  .about p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+  }
+  
+  .skills ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+  .skills li {
+    background-color: #e50914;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .contact a {
+    color: #e50914;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  footer {
+    background-color: #000;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.9rem;
+    color: #999;
+  }
+  .projects .project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+    margin-top: 20px;
+  }
+  
+  .project-card {
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid #333;
+  }
+  
+  .project-card h3 {
+    color: #e50914;
+    margin-bottom: 10px;
+  }
+  
+  .project-card p {
+    color: #ccc;
+    font-size: 0.95rem;
+    margin-bottom: 15px;
+  }
+  
+  .project-card a {
+    color: #e50914;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .project-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 20px rgba(229, 9, 20, 0.5);
+  }
+  
